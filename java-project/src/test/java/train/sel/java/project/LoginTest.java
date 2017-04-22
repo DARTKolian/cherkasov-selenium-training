@@ -32,7 +32,7 @@ public class LoginTest {
         //System.out.println(((HasCapabilities) driver).getCapabilities());
 
         //Google Chrome
-        // driver = new ChromeDriver();
+        driver = new ChromeDriver();
 
         //Mozilla Firefox
         //Mozilla FIrefox new cheme
@@ -45,11 +45,11 @@ public class LoginTest {
         //System.out.println(((HasCapabilities) driver).getCapabilities());
 
         //Mozilla FIrefox oldscheme ESR45
-        DesiredCapabilities caps = new DesiredCapabilities();
-        driver = new FirefoxDriver (
-                new FirefoxBinary(new File("c:\\Program Files (x86)\\Mozilla Firefox\\ESR45\\firefox.exe")),
-                new FirefoxProfile(), caps);
-        System.out.println(((HasCapabilities) driver).getCapabilities());
+        //DesiredCapabilities caps = new DesiredCapabilities();
+        //driver = new FirefoxDriver (
+                //new FirefoxBinary(new File("c:\\Program Files (x86)\\Mozilla Firefox\\ESR45\\firefox.exe")),
+                //new FirefoxProfile(), caps);
+        //System.out.println(((HasCapabilities) driver).getCapabilities());
 
         wait = new WebDriverWait(driver, 10);
     }
