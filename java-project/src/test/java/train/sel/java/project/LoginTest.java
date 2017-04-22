@@ -16,9 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 
-/**
- * Created by Nikolay on 20.11.2016.
- */
+
 public class LoginTest {
     private WebDriver driver;
     private WebDriverWait wait;
