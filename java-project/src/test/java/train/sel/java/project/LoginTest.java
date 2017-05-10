@@ -32,13 +32,13 @@ public class LoginTest {
         //driver = new InternetExplorerDriver();
 
 
-<<<<<<< HEAD
+
         //Google Chrome (from Selenium ver. 3.0)
         // driver = new ChromeDriver();
-=======
+
         //Google Chrome
         driver = new ChromeDriver();
->>>>>>> origin/master
+
 
 
         //Mozilla Firefox
@@ -63,11 +63,10 @@ public class LoginTest {
         //WebDriver driver = new FirefoxDriver(caps);
         //System.out.println(((HasCapabilities) driver).getCapabilities());
 
-<<<<<<< HEAD
+
         //Mozilla FIrefox oldscheme ESR45 (before Selenium ver. 3.3)
-=======
         //Mozilla FIrefox oldscheme ESR45
->>>>>>> origin/master
+
         //DesiredCapabilities caps = new DesiredCapabilities();
         //driver = new FirefoxDriver (
                 //new FirefoxBinary(new File("c:\\Program Files (x86)\\Mozilla Firefox\\ESR45\\firefox.exe")),
