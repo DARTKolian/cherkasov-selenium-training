@@ -23,7 +23,7 @@ public class UserReg {
     }
 
     @Test
-    public void UseerRegTest() throws InterruptedException {
+    public void UseerRegTest() {
         //локаторы
         By firstname = By.xpath("//input[@name='firstname']");
         By lastname = By.xpath("//input[@name='lastname']");
