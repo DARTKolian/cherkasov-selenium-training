@@ -90,7 +90,7 @@ public class AddProduct {
         //проверяем, что имя созданного товара соответствует имени товара в каталоге
         Assert.assertEquals(nameProduct,driver.findElement(addedProduct).getText());
     }
-    
+
     @After
     public void stop() {
         driver.quit();
